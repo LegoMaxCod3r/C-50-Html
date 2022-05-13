@@ -1,0 +1,47 @@
+h1
+{
+    font: italic;
+    color:rgb(255, 255, 255);
+}
+
+.subheader
+{
+    display: flex;
+    background-color: goldenrod;
+    justify-content: center;
+}
+
+*
+{
+    border: solid;
+}
+
+.header
+{
+    background-color:rgb(176, 196, 223);
+    display: flex;
+    justify-content:space-between;
+}
+
+.grid
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color:darkgoldenrod;
+    justify-content: space-evenly;
+}
+
+.site-description
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.footer
+{
+    display: flex;
+    justify-content:center;
+    
+}
